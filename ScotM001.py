@@ -25,7 +25,7 @@ plt.style.use('bmh')
 #############ModelOne###
 ###Fetching the Data
 tickers= ['ADA-USD']
-df=yf.download(tickers,start="2021-1-1", end='2022-12-31')
+df=yf.download(tickers,start="2024-1-1", end='2024-12-31')
 df1=df['High']
 
 ########2
